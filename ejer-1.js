@@ -1,0 +1,11 @@
+function job() {
+    return new Promise((res, rej) => {
+     setTimeout(() => {
+         res('hello world')}, 2000 
+     );
+     
+     });
+     
+ }
+ 
+ module.exports = job;
